@@ -9,7 +9,7 @@ signupRouter.get("/", function (req, res) {
 
 signupRouter.get("/adduser", function (req, res) {
   var newuser = {
-    uid: req.query.uid,
+    uid: req.query.uid, // part#2 point 10
     pwd: req.query.pwd,
   };
   console.log(newuser);
